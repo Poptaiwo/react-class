@@ -1,0 +1,35 @@
+.para{
+  background-color: brown;
+  padding: 5px;
+  font-size: 10px;
+  color: white;
+  border: 1px solid black;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.style2{
+  background-color: black;
+  color: white;
+  text-align: center;
+  min-height: 100vh;
+  padding-top: 130px;
+  font-size: 120px;
+}
+input{
+  border: 1px solid white;
+  border: none;
+  width: 500px;
+  border-radius: 15px;
+  padding: 10px;
+}
+input::placeholder{
+  color: black;
+  font-size: 8px;
+  padding: 15px;
+}
+input:hover{
+  border: 1px solid white;
+}
